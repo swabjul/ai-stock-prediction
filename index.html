@@ -19,9 +19,9 @@
   <main>
 
     <section class="action-panel">
-      <form class="ticker-input-form">
+      <form id="ticker-input-form">
 
-        <label for="ticker-input"> Add up to 3 stock tickers below to get a super accurate stock predictions report👇 </label>
+        <label class="ticker-label" for="ticker-input">Add up to 3 stock tickers below to get a super accurate stock predictions report👇 </label>
 
         <div class="form-input-control">
           <input type="text" id="ticker-input" placeholder="MSFT">
@@ -34,7 +34,7 @@
 					Your tickers will appear here...
 				</p>
 
-				<button class="generate-report-btn" type="button" disabled>
+				<button class="generate-report-btn" type="button" >
 					Generate Report
 				</button>
 
@@ -53,5 +53,6 @@
 
   </main>
   <footer>&copy; This is not real financial advice!</footer>
+  <script src="./index.js" type="module"></script>
 </body>
 </html>
